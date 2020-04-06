@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Promotioms = () => {
+const Footer = () =>{
     return (
         <div>
-            Promotions
+            Footer
         </div>
     )
 }
 
-export default Promotioms
+export default Footer

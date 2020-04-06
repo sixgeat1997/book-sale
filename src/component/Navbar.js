@@ -12,10 +12,11 @@ const Navbar = () => {
             <nav>
                 <div className="container">
                     <ul>
-                        <li><p onClick={() => history.push('/promotions')}>โปรโมชัน</p></li>
+                        <li><p onClick={() => history.push('/home')}>หน้าแรก</p></li>
 
                         <li><p onClick={() => history.push('/allbook')}>หนังสือ</p></li>
                         <li><p>นิยาย</p></li>
+                        <li><p onClick={() => history.push('/sale')}>ขาย</p></li>
                         <li><p>login</p></li>
 
                     </ul>
